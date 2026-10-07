@@ -1,0 +1,107 @@
+[
+  {
+    "id": "weapon_registry",
+    "system": "Weapon classes & slots",
+    "approach": "register new weapon classes next to HL2's",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "ammo_defs",
+    "system": "Ammo types",
+    "approach": "new ammo entries",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "view_fov",
+    "system": "Player FOV",
+    "approach": "narrow FOV while aiming",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "view_sway",
+    "system": "View/viewmodel offset",
+    "approach": "sway applied per frame",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "viewmodel_activity",
+    "system": "Viewmodel animation",
+    "approach": "map DoD:S viewmodel sequences to activities",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "player_hull",
+    "system": "Player collision hull",
+    "approach": "low hull for prone, stand-up check",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "player_input",
+    "system": "Key bindings / in-game keys",
+    "approach": "read the game's own bindings (see Melty game_info)",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "view_height",
+    "system": "Eye height",
+    "approach": "lower eye for prone",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "world_surface_trace",
+    "system": "World trace",
+    "approach": "find a surface to rest the bipod on",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "npc_weapon_acttable",
+    "system": "NPC weapon activity tables",
+    "approach": "let NPCs fire/reload the new weapons",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "npc_spawn_loadout",
+    "system": "NPC spawning",
+    "approach": "swap a share of NPC weapons without editing Valve maps",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "steam_library_finder",
+    "system": "Find DoD:S install",
+    "approach": "read Steam libraryfolders.vdf at runtime",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "content_mount_dod",
+    "system": "Read DoD:S content",
+    "approach": "mount DoD:S files read-only (never copied into the release)",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "missing_dod_message",
+    "system": "In-game notice",
+    "approach": "say so in the game when DoD:S isn't installed",
+    "source_file": null,
+    "verified": null
+  },
+  {
+    "id": "launch_gameinfo",
+    "system": "Mod folder + gameinfo",
+    "approach": "bundled mod folder that HL2 launches with",
+    "source_file": null,
+    "verified": null
+  }
+]

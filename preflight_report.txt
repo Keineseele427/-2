@@ -1,0 +1,46 @@
+note: hook 'steam_library_finder' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'content_mount_dod' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'npc_weapon_acttable' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'ammo_defs' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'missing_dod_message' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'launch_gameinfo' not used by any mechanic (fine for loader/NPC/content hooks)
+note: hook 'npc_spawn_loadout' not used by any mechanic (fine for loader/NPC/content hooks)
+
+PREFLIGHT: 115 unfilled cells of 234; 0 broken references
+
+[hooks]
+  source_file: 15/15 rows empty
+  verified: 15/15 rows empty
+[mechanics]
+  input: 4/5 rows empty
+  test: 5/5 rows empty
+[npc_loadouts]
+  weight: 4/4 rows empty
+[release]
+  versions_tested: 2/5 rows empty
+  melty_slug: 1/5 rows empty
+  file_name: 2/5 rows empty
+  license_ok: 2/5 rows empty
+  launch_args: 1/5 rows empty
+  one_click_check: 1/5 rows empty
+  tested_install: 1/5 rows empty
+[weapons]
+  dod_script: 5/5 rows empty
+  viewmodel: 5/5 rows empty
+  worldmodel: 5/5 rows empty
+  fire_sound: 5/5 rows empty
+  reload_sound: 5/5 rows empty
+  ammo_type: 5/5 rows empty
+  damage: 5/5 rows empty
+  clip_size: 5/5 rows empty
+  rate_of_fire: 5/5 rows empty
+  ads_fov: 5/5 rows empty
+  sway_amount: 5/5 rows empty
+  player_slot: 5/5 rows empty
+  bolt_cycle_time: 1/5 rows empty
+  deploy_anim: 1/5 rows empty
+
+Broken references:
+  none
+
+VERDICT: NOT CLEAN - do not build yet

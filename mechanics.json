@@ -1,0 +1,70 @@
+[
+  {
+    "id": "iron_sights",
+    "applies_to": [
+      "rifle_semiauto",
+      "rifle_bolt",
+      "smg"
+    ],
+    "hooks": [
+      "view_fov",
+      "viewmodel_activity",
+      "player_input"
+    ],
+    "input": null,
+    "test": null
+  },
+  {
+    "id": "weapon_sway",
+    "applies_to": [
+      "rifle_semiauto",
+      "rifle_bolt",
+      "smg",
+      "mg_bipod"
+    ],
+    "hooks": [
+      "view_sway"
+    ],
+    "input": "none",
+    "test": null
+  },
+  {
+    "id": "bolt_cycle",
+    "applies_to": [
+      "rifle_bolt"
+    ],
+    "hooks": [
+      "weapon_registry",
+      "viewmodel_activity"
+    ],
+    "input": null,
+    "test": null
+  },
+  {
+    "id": "prone",
+    "applies_to": [
+      "player"
+    ],
+    "hooks": [
+      "player_hull",
+      "player_input",
+      "view_height"
+    ],
+    "input": null,
+    "test": null
+  },
+  {
+    "id": "bipod_deploy",
+    "applies_to": [
+      "mg_bipod"
+    ],
+    "hooks": [
+      "world_surface_trace",
+      "player_input",
+      "view_sway",
+      "weapon_registry"
+    ],
+    "input": null,
+    "test": null
+  }
+]

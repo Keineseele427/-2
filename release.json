@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hl2",
+    "role": "primary",
+    "melty_slug": "half-life-2",
+    "versions_tested": null
+  },
+  {
+    "id": "dod_source",
+    "role": "secondary",
+    "melty_slug": null,
+    "found_by": "mod at runtime (not in Melty catalog)",
+    "versions_tested": null
+  },
+  {
+    "id": "mod_folder",
+    "component": "bundled mod folder + gameinfo",
+    "file_name": null,
+    "license_ok": null
+  },
+  {
+    "id": "mod_binaries",
+    "component": "compiled server/client code",
+    "file_name": null,
+    "license_ok": null
+  },
+  {
+    "id": "launch",
+    "launch_args": null,
+    "players": "solo",
+    "one_click_check": null,
+    "tested_install": null
+  }
+]

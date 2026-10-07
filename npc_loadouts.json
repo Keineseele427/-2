@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rebel_garand",
+    "npc_class": "npc_citizen",
+    "faction": "rebel",
+    "weapon_id": "garand",
+    "weight": null
+  },
+  {
+    "id": "rebel_thompson",
+    "npc_class": "npc_citizen",
+    "faction": "rebel",
+    "weapon_id": "thompson",
+    "weight": null
+  },
+  {
+    "id": "combine_k98",
+    "npc_class": "npc_combine_s",
+    "faction": "combine",
+    "weapon_id": "k98",
+    "weight": null
+  },
+  {
+    "id": "combine_mp40",
+    "npc_class": "npc_combine_s",
+    "faction": "combine",
+    "weapon_id": "mp40",
+    "weight": null
+  }
+]
